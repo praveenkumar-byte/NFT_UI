@@ -1,0 +1,24 @@
+.banner{
+    padding: 25px;
+    height: 200px;
+    width: 200px;
+    
+}
+.trending-card{
+  flex-direction: column;
+}
+.wrapper{
+    background: var(--text-gradient-1);
+    padding: 2px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+.content-tc{
+    
+    width: 250px;
+    height: 250px;
+    background-color: var(--background);
+    border-radius: 20px;
+    
+}

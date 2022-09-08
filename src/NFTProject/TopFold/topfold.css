@@ -1,0 +1,86 @@
+.topfold{
+    height: 92vh;
+    overflow: hidden;
+}
+
+.topfold-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+}
+
+.tf-heading{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.tf-discription{
+    font-size: 20px;
+    margin: 24px 0px;
+}
+
+.tf-left-btns{
+    margin: 20px;
+    display: flex;   
+}
+.tf-fold-info{
+    display: flex;
+    padding: 5px 0px 0px;
+    margin-left: 36px;
+}
+.tf-fold-item{
+    margin-right: 24px;
+    flex-direction: column;
+}
+.tf-fold-item-count{
+    font-size:20px;
+    font-weight: 600;
+}
+.tf-fold-item-label{
+    font-size: 15px;
+    font-family: 600;
+}
+
+.tf-right{
+    margin: -10px;
+    display: flex;
+    flex:1;
+    position: relative;
+    
+}
+.tf-right-dim{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+.tf-right-dim-item{
+    height: 220px;
+    width: 220px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+    cursor: pointer;
+
+}
+.tf-right-dim-item img{
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    border-radius: 20px;
+    
+}
+.tf-rbg-blob{
+    height: 550px;
+    width: 550px;
+    background-color: var(--bg-blob); 
+    filter: blur(200.68px);
+    position: absolute;
+    z-index: (-99);
+    right: 20%;
+    left: 30%;
+    bottom: 10%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+
